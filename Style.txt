@@ -1,0 +1,57 @@
+.text-primary {
+    color:brown;
+}
+
+.btn btn-primary {
+    background-color: yellow;
+    outline: none;
+}
+
+.btn btn-primary:hover {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+
+.custom {
+    color: blue;
+}
+
+.main-nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--nav-font-color);
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    font-size: large;   
+}
+
+li {
+    margin-right: 1.5em;
+}
+
+.card-body{
+    justify-content: space-between;
+}
+
+.body {
+    justify-content: space-around;
+}
+
+footer {
+    justify-content: space-between;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+}
